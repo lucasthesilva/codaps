@@ -1,0 +1,920 @@
+/*Formatação de link*/
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+
+/*Formatação do menu*/
+
+
+.menu ul{ 
+    background-image: linear-gradient(to right, #800000, #FF4500);
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 45px;
+    
+    
+}
+
+.menu ul li a{
+    padding: 10px 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: verdana;
+    
+}
+
+.menu ul li a:hover{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/*Formatação de tabela*/
+
+
+thead {
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+}
+
+
+.tbody_cadastrar_ingrediente {
+    font-weight: italic;
+    
+    font-size: 90%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.linhadatabela{
+    height: 20px;
+}
+
+.linhadatabela:hover{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    color: white;
+   
+}
+
+caption {
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+
+
+.img_tabela{
+    width: 10%;
+}
+
+.valor {
+    font-weight: italic;
+    font-weight: bold;
+    font-size: 90%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    color: green;
+}
+
+
+
+/*Pagina Inicial*/
+
+
+.form_tela_princ{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.div_img_brasao{
+    width: 100%;
+    text-align: center;
+}
+
+.img_brasao{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.div_imagem_inicial {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+}
+
+.img_inicial{
+    width: 100%;
+    height: 540px;
+}
+
+.subtitulo_inicial { 
+    color: yellow;
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+
+
+
+/*Tela Login*/
+
+.div_principal_login{
+    box-shadow: 1px 1px 5px #585858;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+
+.form_login{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.div_top_login{
+    text-align: center;
+}
+
+
+.titulo_login{
+    color: #8B0000;
+    font-family: verdana;
+}
+
+
+.div_dados_login{
+    margin-bottom: 10px;
+}
+
+.div_dados_login >label{
+    width: 100%;
+    color: #333333;
+    display: block;
+}
+
+.div_dados_login >input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.div_dados_login > button{
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+
+/*Tela Cadastro*/
+
+.form_cadastro{
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.div_principal_cadastro{
+     box-shadow: 1px 1px 5px #585858;
+     background-color: white;
+     width: 100%;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+}
+
+.div_dados_cadastro{
+    margin: 40px;
+}
+
+.div_dados_cadastro > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.div_dados_cadastro > label{
+    width: 100%;
+    color: #333333;
+    display: block;
+    padding-top: 20px;
+}
+
+.div_dados_cadastro > button{
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+
+.div_top_cadastro{
+    text-align: center;
+}
+
+
+/*Tela Cadastro Ingrediente*/
+
+.form_cadastro_ingredientes{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    box-shadow: 1px 1px 5px #585858;
+}
+
+.div_sup_ingredientes{
+    background-color: white;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.div_principal_ingredientes{
+    background-color: white;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.div_tb_ingrediente{
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tabela_ingrediente {
+    border-collapse: collapse;
+    border: 3px solid darkred;
+    width: 100%;
+    table-layout: fixed;
+    margin: auto;
+
+}
+
+
+.div_centraliza_radio_button{
+    width: 100%;
+    margin: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.ul_radio_button{
+    list-style: none;
+    padding-bottom: 30px;
+    padding-left: 160px;
+    width: 1000px;
+    
+}
+
+.ul_radio_button .li_radio_button{
+    padding-left: 50px;
+}
+
+.li_radio_button{
+    border: 1px solid darkred;
+    box-sizing: border-box;
+    float: left;
+    height: 70px;
+    position: relative;
+    width: 120px;
+    padding-left: 50px;
+}
+
+.li_radio_button + .li_radio_button{
+    margin-left: 100px;
+}
+
+.li_radio_button label{
+    background: #fff no-repeat center center;
+    bottom: 1px;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    text-indent: 100%;
+    top: 1px;
+    white-space: nowrap;
+}
+
+.cadastrar_pao label{
+    background-image: url(Imagens/pao2.jpg);
+    background-size: 140px 80px;
+}
+
+.cadastrar_carne label{
+    background-image: url(Imagens/carne.jpg);
+    background-size: 100px 60px;
+}
+
+.cadastrar_salada label{
+    background-image: url(Imagens/salada.jpg);
+    background-size: 140px 100px;
+}
+
+.cadastrar_molho label{
+    background-image: url(Imagens/molhos.jpg);
+    background-size: 70px 60px;
+}
+
+.ul_radio_button input:focus + label{
+    outline: 2px dotted #21b4d0;
+}
+
+.ul_radio_button input:checked + label {
+    outline: 4px solid #21b4d0;
+}
+
+
+.subtitulo_inicial_cadastro {
+    font-size: 18px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.div_dados_ingredientes{
+    margin-top: 40px;
+    
+}
+
+.div_dados_ingredientes > label{
+    width: 100%;
+    color: #333333;
+    display: block;
+    padding-top: 20px;
+    font-weight: italic;
+    font-size: 18px;
+}
+
+.div_dados_ingredientes > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+.td_botao > button{
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.td_botao > button:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+}
+
+.div_centraliza_dados_ingredientes{
+    background-color: white;
+    margin: 60px;
+    padding-bottom: 20px;
+}
+
+.td_botao {
+    text-align: center;
+    border: none;
+}
+
+.tabela_botao{
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    table-layout: fixed;
+    margin: auto;
+    
+}
+
+.filtro{
+     padding-top: 20px;
+     text-align: left;
+}
+
+.filtro button{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100px;
+    border-radius: 30px;
+    padding: 1px;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.filtro button:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+.div_nome_tbingr{
+    width: 100%;
+    text-align: center;
+}
+
+.div_nome_tbingr > label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Tela Pedido*/
+
+.form_principal_tela_pedido {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div_principal_tela_pedido{
+    width: 70%;
+    box-shadow: 1px 1px 5px #585858;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.dropdown{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.btn_qtd{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 50px;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    
+}
+
+.btn_qtd:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+.txt_und{
+    background-color: white;
+    padding: 10px;
+    width: 30px;
+    border: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #585858;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.txt_valor{
+    background-color: white;
+    padding: 10px;
+    width: 60px;
+    border: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #585858;
+    border-radius: 5px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.dropdown-select{
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    display: inline-block;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px #585858;
+    position: relative;
+    
+}
+
+.dropdown-list{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    visibility: hidden;
+    overflow: scroll;
+    margin-left: 190px;
+}
+
+.dropdown:hover .dropdown-list{
+    visibility: visible;
+}
+
+.tabela_pedido{
+    width: 100%;
+    border: 0px;
+}
+
+.tbody_pedido{
+    font-weight: italic;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    background-color: white;
+    cursor: pointer;
+    overflow: scroll;
+}
+
+.btn_carrinho{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 520px;
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100px;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.btn_carrinho:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+.div_inferior_pedido{
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.div_btn_pedido{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn_pedido{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 45%;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.btn_pedido:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+
+
+/*Tela carrinho*/
+
+.form_carrinho{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.div_dados_carrinho{
+    width: 100%;
+    box-shadow: 1px 1px 5px #585858;
+    margin: auto;
+    text-align: center;
+}
+
+.div_dados_carrinho ul{ 
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    list-style: none;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div_dados_carrinho ul li{
+    display: inline;
+    margin: auto;
+    padding: 0px 100px;
+}
+
+
+.div_dados_carrinho ul li label{
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    
+}
+
+
+.div_tabela_carrinho2{
+    width: 100%;
+    height: 430px;
+    box-shadow: 1px 1px 5px #585858;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    overflow: scroll;
+}
+
+.tabela_carrinho{
+    width: 100%;
+    
+}
+
+
+.tbody_carrinho{
+    font-weight: italic;
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    background-color: white;
+    border: 10px;
+}
+
+.thead_carrinho{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+}
+
+.th_tabela_carrinho{
+    padding: 10px;
+}
+
+
+.div_qtd_ingrediente_carrinho{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn_excluir_carrinho{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 100%;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
+
+.btn_excluir_carrinho:hover{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    cursor: pointer;
+}
+
+.div_valortotal_carrinho{
+    width: 100%;
+    box-shadow: 1px 1px 5px #585858;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+}
+
+.lb_valor_h1{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+
+.valor_total_carrinho{
+    display: inline-block;
+    letter-spacing: 1px;
+    color: green;
+}
+
+.div_h3_carrinho{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Tela Controla Pedido*/
+
+.form_controla_pedido1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div_controla_pedido{
+    width: 95%;
+    box-shadow: 1px 1px 5px #585858;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.tabela_pequisa_pedido{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.div_tabela_controla_pedido{
+    width: 95%;
+    height: 250px;
+    margin: auto;
+    overflow: auto;
+}
+
+.tabela_controla_pedido{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: white;
+}
+
+.id_pedido{
+    font-weight: italic;
+    font-weight: bold;
+    font-size: 90%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    color: darkblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lb_valor_pedido{
+    font-size: 20px;
+}
+
+.lb_mostravalor_pedido{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
+
+.tbody_controla_pedido{
+    font-weight: italic;
+    font-size: 90%;
+    letter-spacing: 1px;
+    font-family: verdana;
+    background-color: white;
+    
+}
+
+.div_valortotal_controle_pedido{
+    background-image: linear-gradient(to right, #FFA500, #FF4500);
+    padding: 10px;
+    width: 100%;
+}
+
+.div_mostra_pedidos{
+    width: 95%;
+    height: 300px;
+    box-shadow: 1px 1px 5px #585858;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    overflow: scroll;
+    
+}
+
+.tb_detalhe_pedido{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: white;
+}
+
+.td_detalhe_pedido{
+    width: 300px;
+}
+
+.div_mostra_pedidos ul{
+      list-style: none;
+}
+
+.div_mostra_pedidos ul li{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: verdana;
+    padding: 1px;
+}
+
+.num_lanche{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+.qtd_ingr{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+.valor_ingr{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: verdana;
+    color: green;
+}
+
+.div_mostradetalhe{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.lb_mostra_pedido{
+    font-weight: bold;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.lb_mostra_valor{
+    font-weight: bold;
+    font-size: 25px;
+    color: green;
+}
+
+.inp_controle{
+    padding: 5px;
+}
+
+.btn_controle{
+    background-image: linear-gradient(to right, #FF0000, #800000);
+    width: 70px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+}
